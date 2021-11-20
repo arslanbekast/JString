@@ -1,7 +1,7 @@
 <?php
 include "JString.php";
 
-$str = JString::from("arslanbek_astemirov");
+$str = new JString("hello_world");
 $str->toCamelCase();
 echo $str;
 
